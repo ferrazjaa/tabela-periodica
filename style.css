@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 h1{
     margin: 50px auto;
@@ -9,35 +10,56 @@ h1{
 }
 body{
     background-color: rgba(194, 188, 188, 0.185);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-table{
+#tb-periodica table, #tb-seg table{
     width: 90%;
     margin-left: 40px;
     margin-bottom: 30px;
     /*border: 1px solid;*/
 }
 
+/* 
 tr{
     margin-left: 15px;
-}
+} */
 td{
     width: 90px;
+    height: 75px;
     padding: 5px;
     border-radius: 2px;
+    position: relative;
+    text-align: center;
     
 }
 
-td span{
-    margin-left: 50%;
+td:hover{
+    transform: scale(1.17);
+}
+
+
+.numero-atomico{
+    position: absolute;
+    top: 5px;
+    left: 6px;
+    font-size: 10px;
+}
+
+.simbolo{
+    font-size: 20px;
     font-weight: bold;
 }
 
-sub{
+.nome-elemento{
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
     font-style: italic;
+    font-size: 10px;
 }
 
-
-
+/* CORES DOS GRUPO ******************************************************************* */
 .nao-metais{
     background-color: rgba(99, 255, 99, 0.42);
 }
@@ -63,17 +85,24 @@ sub{
 }
 
 .metais-alcalinos{
-    background-color: orangered;
+    background-color: rgb(255, 204, 153);
 }
 
 .alcalinos-terrosos{
-    background-color: yellow;
+    background-color: rgb(255, 255, 153);
 }
 
 .lantanideos{
-    background-color: aquamarine;
+    background-color: rgb(204, 153, 255);
 }
 
 .actinidios{
-    background-color: rgba(255, 0, 174, 0.598);
+    background-color: rgba(204,153,152);
+}
+
+
+/* SEÇÃO LEGENDAS ****************************************************************** */
+.col-legendas{
+    width: 1.5px; 
+    height: 1.5px;
 }
