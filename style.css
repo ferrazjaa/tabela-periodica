@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    margin: 50px auto;
+    text-align: center;
+}
+body{
+    background-color: rgba(194, 188, 188, 0.185);
+}
+table{
+    width: 90%;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    /*border: 1px solid;*/
+}
+
+tr{
+    margin-left: 15px;
+}
+td{
+    width: 90px;
+    padding: 5px;
+    border-radius: 2px;
+    
+}
+
+td span{
+    margin-left: 50%;
+    font-weight: bold;
+}
+
+sub{
+    font-style: italic;
+}
+
+
+
+.nao-metais{
+    background-color: rgba(99, 255, 99, 0.42);
+}
+
+.semi-metais{
+    background-color: rgba(12, 84, 12, 0.858);
+}
+
+.outros-metais{
+    background-color: aqua;
+}
+
+.metais-transicao{
+    background-color: rgba(165, 42, 42, 0.864);
+}
+
+.gases-nobres{
+    background-color:  rgba(10, 61, 81, 0.525);
+}
+
+.halogenios{
+    background-color: rgba(25, 172, 230, 0.631);
+}
+
+.metais-alcalinos{
+    background-color: orangered;
+}
+
+.alcalinos-terrosos{
+    background-color: yellow;
+}
+
+.lantanideos{
+    background-color: aquamarine;
+}
+
+.actinidios{
+    background-color: rgba(255, 0, 174, 0.598);
+}
