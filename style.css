@@ -14,15 +14,11 @@ body{
 }
 #tb-periodica table, #tb-seg table{
     width: 90%;
-    margin-left: 40px;
-    margin-bottom: 30px;
+    margin: 0 auto 30px auto;
     /*border: 1px solid;*/
 }
 
-/* 
-tr{
-    margin-left: 15px;
-} */
+
 td{
     width: 90px;
     height: 75px;
@@ -30,14 +26,16 @@ td{
     border-radius: 2px;
     position: relative;
     text-align: center;
+    margin-right: 2px;
     
 }
 
 td:hover{
     transform: scale(1.17);
+    
 }
 
-
+/* Personalização de cada célula do elemento **************************************** */
 .numero-atomico{
     position: absolute;
     top: 5px;
@@ -61,11 +59,11 @@ td:hover{
 
 /* CORES DOS GRUPO ******************************************************************* */
 .nao-metais{
-    background-color: rgba(99, 255, 99, 0.42);
+    background-color: rgba(153,255,153);
 }
 
 .semi-metais{
-    background-color: rgba(12, 84, 12, 0.858);
+    background-color: rgba(153,204,255);
 }
 
 .outros-metais{
@@ -73,15 +71,15 @@ td:hover{
 }
 
 .metais-transicao{
-    background-color: rgba(165, 42, 42, 0.864);
+    background-color: rgb(204,204,204);
 }
 
 .gases-nobres{
-    background-color:  rgba(10, 61, 81, 0.525);
+    background-color:  rgb(81, 141, 202);
 }
 
 .halogenios{
-    background-color: rgba(25, 172, 230, 0.631);
+    background-color: rgba(153,255,153);
 }
 
 .metais-alcalinos{
@@ -97,7 +95,7 @@ td:hover{
 }
 
 .actinidios{
-    background-color: rgba(204,153,152);
+    background-color: rgba(204,153,102);
 }
 
 
