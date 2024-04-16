@@ -2,19 +2,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    cursor: pointer;
 
 }
 h1{
     margin: 50px auto;
     text-align: center;
+    font-size: 3em;
 }
 body{
     background-color: rgba(194, 188, 188, 0.185);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+
 #tb-periodica table{
     width: 90%;
-    margin: 0 auto 30px auto;
+    margin: 0 auto 50px auto;
     /*border: 1px solid;*/
 }
 
@@ -26,7 +29,7 @@ td{
     border-radius: 2px;
     position: relative;
     text-align: center;
-    margin-right: 2px;
+    margin-right: 3px;
     
 }
 
@@ -100,7 +103,51 @@ td:hover{
 
 
 /* SEÇÃO LEGENDAS ****************************************************************** */
-.col-legendas{
+.col-legenda{
     width: 1.5px; 
     height: 1.5px;
+    padding: 10px;
 }
+h3{
+    font-size: 1.85em;
+    margin-left: 100px;
+    margin-bottom: 45px;
+}
+
+#legendas{
+    margin-bottom: 50px;
+    display: flex;
+}
+
+#elemento{
+    flex:1;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+#elemento td{
+    width: 90px;
+    height: 90px;  
+}
+
+#cores-grupos{
+    margin-right: 150px;
+    flex: 1;  
+    max-width: 500px;
+    max-height: 200px;
+    margin-left: 200px;
+    
+}
+
+#cores-grupos td{
+    border: 1px solid;
+}
+
+.nome-grupo{
+    width: 210px;
+    height: 30px;
+    font-size: 18px;
+    text-align: left;
+}
+
+/* FOOTER */

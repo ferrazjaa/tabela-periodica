@@ -7,6 +7,10 @@
 
     <link rel="stylesheet" href="style.css">
 
+    <link rel="shortcut icon" href="atom-solid.svg" type="image/x-icon">
+
+    
+
 </head>
 <body>
     <h1>Tabela Periódica</h1>
@@ -772,10 +776,47 @@
     </section>
 
 
-    
-    <section>
-        <h3>Legenda</h3>
-        <table>
+    <h3>Legenda</h3>
+    <section id="legendas">
+        
+        <table id="cores-grupos">
+            <tr>
+                <td class="nao-metais col-legenda"></td>
+                <td class="nome-grupo">Não metais</td>
+                <td class="gases-nobres col-legenda" ></td>
+                <td class="nome-grupo">Gases Nobres</td>
+            </tr>
+            <tr>
+                <td class="metais-alcalinos col-legenda"></td>
+                <td class="nome-grupo" >Metais Alcalinos</td>
+                <td class="alcalinos-terrosos col-legenda"></td>
+                <td class="nome-grupo">Metais Alcalinos Terrosos</td>
+            </tr>
+
+            <tr>
+                <td class="outros-metais col-legenda"></td>
+                <td class="nome-grupo">Outros Metais</td>
+                <td class="halogenios col-legenda"></td>
+                <td class="nome-grupo">Halogênios</td>
+            </tr>
+
+            <tr>
+                <td class="semi-metais col-legenda"></td>
+                <td class="nome-grupo">SemiMetais</td>
+                <td class="metais-transicao col-legenda"></td>
+                <td class="nome-grupo">Metais de Transição</td>
+            </tr>
+
+            <tr>
+                <td class="lantanideos col-legenda"></td>
+                <td class="nome-grupo">Lantanídeos</td>
+                <td class="actinidios col-legenda"></td>
+                <td class="nome-grupo">Actinídios</td>
+            </tr>
+
+        </table>
+
+        <table id="elemento">
             <tr>
                 <td style="border: 1px solid;">
                     <span class="numero-atomico">Número Atômico</span>
@@ -787,42 +828,7 @@
         </table>
 
 
-        <table style="width: 300px;">
-            <tr>
-                <td class="nao-metais col-legenda"></td>
-                <td>Não metais</td>
-                <td class="gases-nobres col-legenda" ></td>
-                <td>Gases Nobres</td>
-            </tr>
-            <tr>
-                <td class="metais-alcalinos col-legenda"></td>
-                <td>Metais Alcalinos</td>
-                <td class="alcalinos-terrosos col-legenda"></td>
-                <td>Metais Alcalinos Terrosos</td>
-            </tr>
-
-            <tr>
-                <td class="outros-metais col-legenda"></td>
-                <td>Outros Metais</td>
-                <td class="halogenios col-legenda"></td>
-                <td>Halogênios</td>
-            </tr>
-
-            <tr>
-                <td class="nao-metais col-legenda"></td>
-                <td>Não Metais</td>
-                <td class="metais-transicao col-legenda"></td>
-                <td>Metais de Transição</td>
-            </tr>
-
-            <tr>
-                <td class="lantanideos col-legenda"></td>
-                <td>Lantanídeos</td>
-                <td class="actinidios col-legenda"></td>
-                <td>Actinídios</td>
-            </tr>
-
-        </table>
+   
     </section>
     
     <footer>
@@ -835,8 +841,10 @@
                 <a href="https://brasilescola.uol.com.br/quimica/tabela-periodica.htm" target="_blank" rel="noopener noreferrer">Tabela Periódica</a> - <a href="https://brasilescola.uol.com.br" target="_blank" rel="noopener noreferrer"> Brasil Escola</a>
             </li>
         </ul>
-        Referência: 
-        
+      
+        <div id="credito">
+            <p>Desenvolvido por Jéssica Ferraz. 2024.</p>
+        </div>
 
     </footer>
 </body>
