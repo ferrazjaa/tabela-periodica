@@ -12,7 +12,7 @@ body{
     background-color: rgba(194, 188, 188, 0.185);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-#tb-periodica table, #tb-seg table{
+#tb-periodica table{
     width: 90%;
     margin: 0 auto 30px auto;
     /*border: 1px solid;*/
