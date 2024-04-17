@@ -37,7 +37,7 @@ td{
     
 }
 
-#tb-periodica td:hover{
+#tb-periodica td:hover:not(.td-vazio){
     box-shadow: 
         1px 1px,
         2px 2px,
